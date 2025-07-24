@@ -43,6 +43,7 @@ def main(orders_path, customers_path, output_path, output_format):
         df_orders = standardize_column_names(df_orders)
         df_customers = standardize_column_names(df_customers)
         df_orders = convert_types(df_orders)
+        df_orders["unit_price"] = df_orders["unit_price"].astype(float)  # 👈 Esta línea soluciona el error de Athena
         df_orders = add_total_amount(df_orders)
         df = merge_orders_customers(df_orders, df_customers)
         df = normalize_country(df)
