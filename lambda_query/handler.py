@@ -7,6 +7,7 @@ def lambda_handler(event, context):
     query = """
         SELECT status, SUM(total_amount) AS total_sales
         FROM default.orders_clean
+        WHERE status IN ('pending', 'returned', 'cancelled', 'shipped')
         GROUP BY status
     """
 
