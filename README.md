@@ -49,7 +49,7 @@ aws-etl-pipeline/
 
 ## 🔄 **Flujo del Pipeline**
 
-![Diagrama de flujo](IMG_DIAGRAMA.png) ← *(usa el que subiste con `graph TD`)*
+<img width="647" height="648" alt="image" src="https://github.com/user-attachments/assets/8b1677ac-06f5-45ff-a59e-08d36f58096e" />
 
 ---
 
@@ -186,5 +186,6 @@ GROUP BY status;
 
 Si querés, ahora te puedo dar también la **versión reducida en inglés** para LinkedIn y portfolio, usando este README como base, así cierras todo hoy.
 ¿Querés que lo arme ahora mismo?
+
 
 
