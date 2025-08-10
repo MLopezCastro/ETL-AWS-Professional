@@ -161,7 +161,9 @@ GROUP BY status;
 * Query ejecutada automáticamente
 * Resultados listos en S3 para ser consumidos por Power BI, Tableau u otra herramienta
 
-📷 **Imagen a incluir:** S3 mostrando carpeta `athena-results/`
+<img width="1607" height="683" alt="image" src="https://github.com/user-attachments/assets/566f2a7c-f3d7-44b2-bc73-227b97d3db6b" />
+
+<img width="190" height="144" alt="csvdelambda" src="https://github.com/user-attachments/assets/f2e2ef7c-68ea-459e-94cd-f5e4e9d0c977" />
 
 ---
 
@@ -188,10 +190,4 @@ GROUP BY status;
 10. **S3 con carpeta `athena-results/` y archivo de salida**
 
 ---
-
-Si querés, ahora te puedo dar también la **versión reducida en inglés** para LinkedIn y portfolio, usando este README como base, así cierras todo hoy.
-¿Querés que lo arme ahora mismo?
-
-
-
 
