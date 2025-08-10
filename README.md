@@ -73,7 +73,7 @@ aws s3 mb s3://marcelo-orders-bucket
 aws s3 cp data/raw/orders.csv s3://marcelo-orders-bucket/data/orders.csv
 ```
 
-📷 **Imagen a incluir:** S3 mostrando `orders.csv`
+<img width="532" height="688" alt="image" src="https://github.com/user-attachments/assets/219b3376-192d-40ec-9cad-3b152952f670" />
 
 ---
 
@@ -83,10 +83,9 @@ aws s3 cp data/raw/orders.csv s3://marcelo-orders-bucket/data/orders.csv
 * Convierte el CSV a Parquet con compresión Snappy
 * Guarda el archivo optimizado en S3
 
-📷 **Imagen a incluir:**
+<img width="830" height="792" alt="image" src="https://github.com/user-attachments/assets/730efd49-7dbc-403b-92a0-759560ac5fa6" />
 
-* Pantalla de AWS Lambda con `uploadLambda` y su código
-* S3 mostrando el `.parquet` generado
+<img width="986" height="332" alt="image" src="https://github.com/user-attachments/assets/d459137d-eb77-4054-a593-ead7608ff7df" />
 
 ---
 
@@ -110,7 +109,9 @@ LOCATION 's3://marcelo-orders-bucket/data/'
 TBLPROPERTIES ('parquet.compress'='SNAPPY');
 ```
 
-📷 **Imagen a incluir:** Athena con la tabla creada
+<img width="942" height="446" alt="image" src="https://github.com/user-attachments/assets/cb11d275-c6ba-4497-b5ac-20920fd19c5d" />
+
+<img width="839" height="509" alt="image" src="https://github.com/user-attachments/assets/27ed128b-0eb5-4fe1-9ced-99c595baef94" />
 
 ---
 
@@ -127,7 +128,7 @@ GROUP BY status;
 
 * Guarda resultados en `s3://marcelo-orders-bucket/athena-results/`
 
-📷 **Imagen a incluir:** AWS Lambda con `athenaQueryLambda`
+<img width="793" height="818" alt="image" src="https://github.com/user-attachments/assets/1c019ee0-1e29-4dce-b782-e1d517654c86" />
 
 ---
 
@@ -136,10 +137,14 @@ GROUP BY status;
 * Task 1: Ejecuta `uploadLambda`
 * Task 2: Ejecuta `athenaQueryLambda`
 
-📷 **Imagen a incluir:**
-
 * Diagrama visual de la Step Function en AWS
+
+<img width="841" height="571" alt="image" src="https://github.com/user-attachments/assets/d32d3c46-9e0e-4931-a27e-3912b47e629e" />
+
 * Ejecución exitosa con input:
+
+<img width="1125" height="809" alt="image" src="https://github.com/user-attachments/assets/f04f96ba-f252-446d-951b-040c976c32fd" />
+
 
 ```json
 {
@@ -186,6 +191,7 @@ GROUP BY status;
 
 Si querés, ahora te puedo dar también la **versión reducida en inglés** para LinkedIn y portfolio, usando este README como base, así cierras todo hoy.
 ¿Querés que lo arme ahora mismo?
+
 
 
 
